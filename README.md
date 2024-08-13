@@ -23,14 +23,11 @@ Beyond my academic and technical achievements, my passion for technology extends
 - **Concepts**: Component Composition, State Management, Theming, Responsive Design
 
 ## Projects
-
-### 1. [EnchantByReem](#)
-A full-featured online jewelry store built with Angular. The project includes a dynamic navigation bar, product listing, and a custom About Us page.
-
-### 2. [Portfolio Website](#)
+ 
+### 1. [Portfolio Website](#)
 A personal portfolio website showcasing my work and skills. Built with React, Tailwind CSS, and Material UI, it features a theme toggle, responsive design, and interactive elements.
 
-### 3. [Java Process Manager](#)
+### 2. [Java Process Manager](#)
 A Java-based application for managing server processes like Tomcat and Spring Boot on Windows.
 
 ## Contact
