@@ -1,0 +1,25 @@
+/* Keyframes for the gradient animation */
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+}
+
+/* Gradient background animation */
+.gradient-motion {
+    background: linear-gradient(270deg, #ff9a8b, #ff6a00, #fbc2eb);
+    background-size: 300% 300%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+/* General styles for sections */
+.section-transition {
+    transition: transform 0.3s ease-in-out;
+}
+
+.section-transition:hover {
+    transform: scale(1.05);
+}

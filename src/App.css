@@ -1,0 +1,30 @@
+/* Define CSS variables for light and dark themes */
+:root {
+    --background-light: white;
+    --background-dark: #1a1a1a;
+  }
+  
+  /* Apply background color based on the theme */
+  body {
+    background-color: var(--background-light);
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: var(--background-dark);
+  }
+  
+  /* Other styling (optional) */
+  header {
+    transition: background-color 0.9s ease;
+  }
+  
+  /* Optional: Set dark mode specific styles for header */
+  body.dark-mode header {
+    background-color: var(--background-dark);
+  }
+ 
+html {
+  scroll-behavior: smooth;
+}

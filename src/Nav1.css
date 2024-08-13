@@ -1,0 +1,20 @@
+ /* Nav1.css */
+
+@keyframes running-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .running-gradient {
+    background: linear-gradient(270deg, #ff9a8b, #ff6a00, #fbc2eb);
+    background-size: 400% 400%;
+    animation: running-gradient 5s linear infinite;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
